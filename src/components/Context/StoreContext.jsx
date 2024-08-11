@@ -7,7 +7,7 @@ const StoreContextProvider=(props)=>{
 
  const[cartItems,setCartItems]=useState({});
  // backened URL;
- const url=process.env.REACT_APP_URL;
+ const url="https://tom-upze.onrender.com";
 
  const [token,setToken]=useState("");
  const[food_list,setFoodList]=useState([]);
