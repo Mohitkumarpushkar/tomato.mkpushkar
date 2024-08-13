@@ -6,7 +6,10 @@ import {useSearchParams} from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios';
 const Verify = () => {
-  const {url} = useContext(StoreContext)
+ const {url} = useContext(StoreContext)
+
+
+  
   const [searchParams,setSearchParams] =useSearchParams();
   const success=searchParams.get("success");
   const orderId=searchParams.get("orderId");
